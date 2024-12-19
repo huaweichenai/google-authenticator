@@ -1,0 +1,26 @@
+{
+    "name": "huaweichenai/google-authenticator",
+    "description": "基于Google Authenticator双因素身份验证实现动态码验证",
+    "version": "1.0",
+    "type": "library",
+    "keywords": ["GoogleAuthenticator", "authenticator"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "huaweichenai",
+            "email": "243681093@qq.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+	"autoload": {
+        "psr-4": {
+          "huaweichenai\\googleAuthenticator\\": "src"
+        }
+	}
+}
+
+
+
+
